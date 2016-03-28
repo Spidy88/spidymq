@@ -1,0 +1,13 @@
+machine:
+  node:
+    version: 4.4.0
+
+dependencies:
+  override:
+    - npm install -g grunt grunt-cli
+    - npm install
+
+test:
+  override:
+    - grunt jshint
+    - npm test
