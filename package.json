@@ -1,10 +1,10 @@
 {
   "name": "spidymq",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A library for interacting with SpidyMQ a service",
   "main": "index.js",
   "engines": {
-    "node": "5.2.0"
+    "node": "4.x"
   },
   "scripts": {
     "test": "mocha --harmony --recursive"
